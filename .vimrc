@@ -13,7 +13,6 @@ filetype off
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
@@ -40,7 +39,6 @@ Plugin 'vim-scripts/bufexplorer.zip'
 Plugin 'vim-scripts/cscope.vim'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/DoxygenToolkit.vim'
-" Plugin 'vim-scripts/project.tar.gz'
 
 call vundle#end()
 
@@ -159,11 +157,9 @@ set foldmethod=indent
 set foldlevel=100 " 启动vim时不要自动折叠代码
 set foldcolumn=0 " 设置折叠栏宽度
 
-
 " Python 文件的一般设置，比如不要 tab 等
 " autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
 " autocmd FileType python map <F12> :!python %<CR>
-
 
 " 设置数据字典 ~/.vim/dict/文件的路径
 set complete-=k complete+=k
@@ -284,11 +280,9 @@ let NERDCompactSexyComs=1 " 多行注释时样子更好看
 nnoremap <silent> <C-p> :ClearAllCtrlPCache<CR>\|:CtrlP<CR>
 
 
-
 "-----------------------------------------------------------------
 " 常用函数定义
 "-----------------------------------------------------------------
-
 " 自动对齐=号
 function! Align_equal_mark()
     "yank current visual selection to reg x
