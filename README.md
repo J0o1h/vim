@@ -6,4 +6,4 @@
 2. 打开vim, 执行 `:PluginInstall` 安装插件
 
 ## 效果截图
-![](./vim.jpjg)
+![](https://github.com/JiangYahui/vim/blob/master/vim.jpg)
